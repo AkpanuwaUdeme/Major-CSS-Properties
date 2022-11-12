@@ -1,0 +1,73 @@
+h1 {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: white;
+}
+
+.tech {
+    font-size: 14px;
+    color: green;
+
+}
+
+.css {
+    color: red;
+    font-size: 14px;
+}
+
+.box {
+    color: blue;
+    font-size: 14px;
+}
+.first{
+    margin: auto;
+    padding: 6px;
+    border: 4px solid red;
+    border-width: 10px;
+    border-radius: 5px;
+    display: flex;
+
+}
+.first:hover {
+    border: none;
+    border-right: solid 6px yellow;
+    border-bottom: solid 6px yellow;
+    border-left: solid 6px yellow;
+    border-top: solid 6px yellow;
+}
+.second {
+    padding: 6px;
+    border: 4px dashed yellow;
+    border-width: 10px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+   
+}
+.second:hover {
+    border: none;
+    border-right: dashed 6px green;
+    border-bottom: dashed 6px green;
+    border-left: dashed 6px green;
+    border-top: dashed 6px green;
+}
+
+.third {
+    padding: 6px;
+    border: 4px dotted blue;
+    border-width: 10px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+}
+
+.third:hover {
+    border: none;
+    border-right: dotted 6px red;
+    border-bottom: dotted 6px red;
+    border-left: dotted 6px red;
+    border-top:dotted 6px red;
+}
